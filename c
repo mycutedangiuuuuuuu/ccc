@@ -120,3 +120,12 @@ db.child("users").push(data)
 
 print("Dữ liệu đã được thêm vào Firebase!")
 
+Python 3.7.3 (/usr/bin/python3)
+>>> %Run pyrebase.py
+Traceback (most recent call last):
+  File "/home/pi/pyrebase.py", line 1, in <module>
+    import pyrebase
+  File "/home/pi/pyrebase.py", line 10, in <module>
+    firebase = pyrebase.initialize_app(config)
+AttributeError: module 'pyrebase' has no attribute 'initialize_app'
+>>>
