@@ -1,3 +1,13 @@
+
+>> %Run upfirebase.py
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/ast.py", line 35, in parse
+    return compile(source, filename, mode, PyCF_ONLY_AST)
+  File "/home/pi/upfirebase.py", line 1
+    import pyrebase
+    ^
+IndentationError: unexpected indent
+
 error: subprocess-exited-with-error
   
   × Preparing metadata (pyproject.toml) did not run successfully.
