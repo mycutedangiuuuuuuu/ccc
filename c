@@ -1,3 +1,13 @@
+Python 3.7.3 (/usr/bin/python3)
+>>> %Run upfirebase.py
+Traceback (most recent call last):
+  File "/home/pi/upfirebase.py", line 17
+    }
+    ^
+SyntaxError: invalid syntax
+>>> 
+─────────────────
+
 
 >> %Run upfirebase.py
 Traceback (most recent call last):
