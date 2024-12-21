@@ -84,3 +84,15 @@ if __name__ == "__main__":
         push_optimized_data()
     except KeyboardInterrupt:
         print("Đã dừng chương trình!")
+
+
+
+
+>>> %Run upfirebase.py
+Traceback (most recent call last):
+  File "/home/pi/upfirebase.py", line 1, in <module>
+    import pyrebase  # Đảm bảo đã cài đặt thư viện pyrebase4
+ModuleNotFoundError: No module named 'pyrebase'
+
+
+  python3: can't open file 'upfirebase': [Errno 2] No such file or directory
