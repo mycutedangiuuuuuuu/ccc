@@ -6,6 +6,7 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'pyrebase'
 >>> 
 
+protobuf requires Python '>=3.7' but the running Python is 2.7.16
 
 
   import pyrebase
