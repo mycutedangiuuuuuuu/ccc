@@ -96,3 +96,27 @@ ModuleNotFoundError: No module named 'pyrebase'
 
 
   python3: can't open file 'upfirebase': [Errno 2] No such file or directory
+
+
+
+
+
+
+import pyrebase
+
+config = {
+    "apiKey": "YOUR_API_KEY",
+    "authDomain": "YOUR_AUTH_DOMAIN",
+    "databaseURL": "YOUR_DATABASE_URL",
+    "storageBucket": "YOUR_STORAGE_BUCKET"
+}
+
+firebase = pyrebase.initialize_app(config)
+db = firebase.database()
+
+# Thêm dữ liệu mẫu vào Firebase
+data = {"name": "John", "age": 30}
+db.child("users").push(data)
+
+print("Dữ liệu đã được thêm vào Firebase!")
+
